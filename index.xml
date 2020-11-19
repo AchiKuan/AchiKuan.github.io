@@ -16,5 +16,47 @@
       <description>12312341234</description>
     </item>
     
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://achikuan.github.io/blog/2019/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://achikuan.github.io/blog/2019/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://achikuan.github.io/blog/2018/typography/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
+      
+      <guid>https://achikuan.github.io/blog/2018/typography/</guid>
+      <description>Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
+Heading 1 Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio.</description>
+    </item>
+    
+    <item>
+      <title>Hugo shortcodes</title>
+      <link>https://achikuan.github.io/blog/2018/hugo-shortcodes/</link>
+      <pubDate>Sun, 18 Mar 2018 12:13:36 +0530</pubDate>
+      
+      <guid>https://achikuan.github.io/blog/2018/hugo-shortcodes/</guid>
+      <description>Images   Dave Herring     Dave Herring   Github Gist  Youtube video   Tweet Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
+&amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017  Vimeo   </description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://achikuan.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://achikuan.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
   </channel>
 </rss>

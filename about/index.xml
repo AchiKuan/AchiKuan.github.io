@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on title</title>
+    <title>About on kyw的隨筆</title>
     <link>https://achikuan.github.io/about/</link>
-    <description>Recent content in About on title</description>
+    <description>Recent content in About on kyw的隨筆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://achikuan.github.io/about/index.xml" rel="self" type="application/rss+xml" />

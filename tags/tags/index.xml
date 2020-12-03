@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kyw的隨筆</title>
-    <link>https://achikuan.github.io/</link>
-    <description>Recent content on kyw的隨筆</description>
+    <title>tags on kyw的隨筆</title>
+    <link>https://achikuan.github.io/tags/tags/</link>
+    <description>Recent content in tags on kyw的隨筆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 19 Nov 2020 17:51:27 +0800</lastBuildDate><atom:link href="https://achikuan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2020 17:51:27 +0800</lastBuildDate><atom:link href="https://achikuan.github.io/tags/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>https://achikuan.github.io/posts/2020/my-first-post/</link>
@@ -84,19 +84,6 @@
 &lt;li&gt;Blue&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>搜尋結果</title>
-      <link>https://achikuan.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://achikuan.github.io/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs, jquery and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
     </item>
     
   </channel>

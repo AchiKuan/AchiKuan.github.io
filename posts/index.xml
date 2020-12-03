@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on kyw的隨筆</title>
+    <title>文章們 on kyw的隨筆</title>
     <link>https://achikuan.github.io/posts/</link>
-    <description>Recent content in Posts on kyw的隨筆</description>
+    <description>Recent content in 文章們 on kyw的隨筆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 19 Nov 2020 17:51:27 +0800</lastBuildDate><atom:link href="https://achikuan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://achikuan.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 19 Nov 2020 17:51:27 +0800</pubDate>
-      
-      <guid>https://achikuan.github.io/posts/my-first-post/</guid>
-      <description>12312341234</description>
-    </item>
-    
   </channel>
 </rss>

@@ -87,6 +87,24 @@
     </item>
     
     <item>
+      <title>在hugo網頁上新增disqus留言版</title>
+      <link>https://achikuan.github.io/posts/2020/disqus-on-hugo/</link>
+      <pubDate>Thu, 03 Dec 2020 06:29:27 +0800</pubDate>
+      
+      <guid>https://achikuan.github.io/posts/2020/disqus-on-hugo/</guid>
+      <description>架設完hugo網站之後，可能會需要留言版，這篇文章會帶你一步步架設，雖然網路上有各種架設方法，但是不一定適用每種網站（似乎是跟主題有關），這裡提供的是我的用法，如果不適用，請尋找其他文章。
+步驟 1.進入disqus網站註冊帳號
+2.到下面這個頁面，選擇 ‘I want to install Disqus on my site’，接下來的步驟請參考這個網站，這裡就不一一說明，註冊完請記住您的shortname。
+3.開啟你的網站中的single.html檔案（通常在theme/(theme name)/layout/_default裡面），這裡根據主題會有些不同，在我這裡原本是
+{{ template &amp;#34;_internal/disqus.html&amp;#34; . }} （原本是官方的模板，但是我在這裡出了些小問題，所以使用這篇文章寫的模板），將它改成
+{{ partial &amp;#34;disqus.html&amp;#34; . }} ，並在theme/(theme name)/layout/partial裡面新增一個disqus.html，貼上以下內容：
+&amp;lt;div id=&amp;#34;disqus_thread&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; (function() { var d = document, s = d.createElement(&amp;#39;script&amp;#39;); s.src = &amp;#39;https://&amp;lt;你的disqus-shortname&amp;gt;.disqus.com/embed.js&amp;#39;; s.setAttribute(&amp;#39;data-timestamp&amp;#39;, +new Date()); (d.head || d.body).appendChild(s); })(); &amp;lt;/script&amp;gt; &amp;lt;noscript&amp;gt;Please enable JavaScript to view the &amp;lt;a href=&amp;#34;https://disqus.com/?ref_noscript&amp;#34;&amp;gt;comments powered by Disqus.&amp;lt;/a&amp;gt;&amp;lt;/noscript&amp;gt; 4.最後在你的config.toml中最後在你的config.toml中新增，將它改成
+disqusShortname = &amp;#34;&amp;lt;你的disqus-shortname&amp;gt;&amp;#34; 恭喜你，你完成了！
+參考資料
+  原文</description>
+    </item>
+    
+    <item>
       <title>搜尋結果</title>
       <link>https://achikuan.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

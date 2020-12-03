@@ -166,7 +166,7 @@
 <p><img src="/image/disqushome.png" alt="disqus首頁"></p>
 <p>2.到下面這個頁面，選擇 ‘I want to install Disqus on my site’，接下來的步驟請參考<a href="https://vineo.cn/config-disqus.html">這個網站</a>，這裡就不一一說明，註冊完請記住您的shortname。</p>
 <p><img src="/image/disquschoice.png" alt="disqus選擇頁面"></p>
-<p>3.開啟你的網站中的single.html檔案（通常在theme/(theme name)/layout/_default裡面），這裡根據主題會有些不同，在我這裡原本是</p>
+<p>3.開啟你的網站中的single.html檔案（通常在theme/(theme name)/layout/_default裡面），這裡根據主題會有些不同，只要找到關於disqus的內容即可，在我這裡原本是：</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">{{ template &#34;_internal/disqus.html&#34;  . }}
 </code></pre></div><p>（原本是官方的模板，但是我在這裡出了些小問題，所以使用這篇文章寫的模板），將它改成</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">{{ partial &#34;disqus.html&#34; . }}
